@@ -1,5 +1,8 @@
 all:
-  children: {}
+  children:
+    test:
+      hosts:
+        test2:
   hosts:
     test:
       ansible_host: 0.0.0.0
