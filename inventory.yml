@@ -6,3 +6,8 @@ all:
       ansible_port: 22
       ansible_user: user
       primary_mac: a:b:c:d
+    test2:
+      ansible_host: 0.0.0.0
+      ansible_port: 22
+      ansible_user: user
+      primary_mac: a:b:c:d
