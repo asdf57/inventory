@@ -5,7 +5,6 @@ all:
         test2:
         test4:
   hosts:
-    test: {}
     test2:
       ansible_host: 0.0.0.0
       ansible_port: 22
