@@ -1,3 +1,11 @@
 all:
-  children: {}
-  hosts: {}
+  children:
+    coords:
+      hosts:
+        beelink:
+  hosts:
+    beelink:
+      ansible_host: 0.0.0.0
+      ansible_port: 22
+      ansible_user: condor
+      primary_mac: a:b:c:d
