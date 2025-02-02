@@ -1,6 +1,3 @@
 all:
-  children:
-    test:
-      hosts:
-        test1:
+  children: {}
   hosts: {}
