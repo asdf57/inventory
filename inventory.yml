@@ -1,11 +1,1 @@
-all:
-  children:
-    test:
-      hosts:
-        test1:
-  hosts:
-    test1:
-      ansible_host: 0.0.0.0
-      ansible_port: 22
-      ansible_user: user
-      primary_mac: a:b:c:d
+
