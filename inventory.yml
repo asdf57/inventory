@@ -1,14 +1,3 @@
 all:
-  children:
-    newgrp:
-      hosts:
-        test34:
-    test:
-      hosts:
-        test34:
-  hosts:
-    test34:
-      ansible_host: 0.0.0.0
-      ansible_port: 22
-      ansible_user: user
-      primary_mac: a:b:c:d
+  children: {}
+  hosts: {}
