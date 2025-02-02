@@ -2,24 +2,7 @@ all:
   children:
     test:
       hosts:
-        test:
         test2:
         test3:
         test4:
-  hosts:
-    test: {}
-    test2:
-      ansible_host: 0.0.0.0
-      ansible_port: 22
-      ansible_user: user
-      primary_mac: a:b:c:d
-    test3:
-      ansible_host: 0.0.0.0
-      ansible_port: 22
-      ansible_user: user
-      primary_mac: a:b:c:d
-    test4:
-      ansible_host: 0.0.0.0
-      ansible_port: 22
-      ansible_user: user
-      primary_mac: a:b:c:d
+  hosts: {}
