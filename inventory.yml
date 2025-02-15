@@ -7,7 +7,15 @@ all:
     infras:
       hosts:
         host2:
+    workers:
+      hosts:
+        gfdfdgfd:
   hosts:
+    gfdfdgfd:
+      ansible_host: 0.0.0.1
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
     host1:
       ansible_host: 0.0.0.1
       ansible_port: 1
