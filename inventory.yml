@@ -1,5 +1,8 @@
 all:
   children:
+    coords:
+      hosts:
+        t3:
     infras:
       hosts:
         t2:
@@ -13,6 +16,11 @@ all:
       ansible_user: root
       primary_mac: string
     t2:
+      ansible_host: 0.0.0.1
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
+    t3:
       ansible_host: 0.0.0.1
       ansible_port: 1
       ansible_user: root
