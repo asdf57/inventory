@@ -3,6 +3,7 @@ all:
     coords:
       hosts:
         host1:
+        sdfdssd:
     infras:
       hosts:
         host2:
@@ -13,6 +14,11 @@ all:
       ansible_user: root
       primary_mac: string
     host2:
+      ansible_host: 0.0.0.1
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
+    sdfdssd:
       ansible_host: 0.0.0.1
       ansible_port: 1
       ansible_user: root
