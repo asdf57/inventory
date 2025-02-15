@@ -1,3 +1,11 @@
 all:
-  children: {}
-  hosts: {}
+  children:
+    coords:
+      hosts:
+        test_host:
+  hosts:
+    test_host:
+      ansible_host: 0.0.0.0
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
