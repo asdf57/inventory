@@ -1,9 +1,17 @@
 all:
   children:
+    coords:
+      hosts:
+        host1:
     infras:
       hosts:
         host2:
   hosts:
+    host1:
+      ansible_host: 0.0.0.1
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
     host2:
       ansible_host: 0.0.0.1
       ansible_port: 1
