@@ -2,11 +2,18 @@ all:
   children:
     coords:
       hosts:
+        inithost:
         test:
     servers:
       hosts:
+        inithost:
         test:
   hosts:
+    inithost:
+      ansible_host: 0.0.0.0
+      ansible_port: 22
+      ansible_user: root
+      primary_mac: string
     test:
       ansible_host: 0.0.0.1
       ansible_port: 1
