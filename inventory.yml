@@ -1,14 +1,3 @@
 all:
-  children:
-    coords:
-      hosts:
-        beelink:
-    servers:
-      hosts:
-        beelink:
-  hosts:
-    beelink:
-      ansible_host: 10.1.1.251
-      ansible_port: 22
-      ansible_user: root
-      primary_mac: AA:BB:CC:DD
+  children: {}
+  hosts: {}
