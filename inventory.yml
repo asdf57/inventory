@@ -3,19 +3,12 @@ all:
     coords:
       hosts:
         beelink:
-        dummy:
     servers:
       hosts:
         beelink:
-        dummy:
   hosts:
     beelink:
       ansible_host: 10.1.1.254
-      ansible_port: 22
-      ansible_user: root
-      primary_mac: e8:ff:1e:d4:03:fa
-    dummy:
-      ansible_host: 10.1.1.111
       ansible_port: 22
       ansible_user: root
       primary_mac: e8:ff:1e:d4:03:fa
