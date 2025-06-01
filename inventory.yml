@@ -1,3 +1,10 @@
 all:
-  children: {}
-  hosts: {}
+  children:
+    servers:
+      hosts:
+        beeloink:
+  hosts:
+    beeloink:
+      ansible_host: 127.0.0.1
+      ansible_port: 1
+      ansible_user: root
