@@ -2,7 +2,7 @@ all:
   children:
     servers:
       hosts:
-        beeloink:
+        beeloink: null
   hosts:
     beeloink:
       ansible_host: 127.0.0.1
