@@ -1,1 +1,14 @@
-
+all:
+  children:
+    coords:
+      hosts:
+        string:
+    servers:
+      hosts:
+        string:
+  hosts:
+    string:
+      ansible_host: 126.0.0.1
+      ansible_port: 1
+      ansible_user: root
+      primary_mac: string
