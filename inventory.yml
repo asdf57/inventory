@@ -1,8 +1,5 @@
 all:
   children:
-    droplets:
-      hosts:
-        droplet4: null
     servers:
       hosts:
         beeloink: null
@@ -10,8 +7,4 @@ all:
     beeloink:
       ansible_host: 127.0.0.1
       ansible_port: 1
-      ansible_user: root
-    droplet4:
-      ansible_host: 1.1.1.1
-      ansible_port: 22
       ansible_user: root
