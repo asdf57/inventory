@@ -1,15 +1,3 @@
 all:
-  children:
-    servers:
-      hosts:
-        beelink:
-        beelink2:
-  hosts:
-    beelink:
-      ansible_host: 10.1.1.254
-      ansible_port: 22
-      ansible_user: root
-    beelink2:
-      ansible_host: 10.1.1.254
-      ansible_port: 22
-      ansible_user: root
+  children: {}
+  hosts: {}
