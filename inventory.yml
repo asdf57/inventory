@@ -1,17 +1,3 @@
 all:
-  children:
-    droplets:
-      hosts:
-        droplet:
-    servers:
-      hosts:
-        beelink:
-  hosts:
-    beelink:
-      ansible_host: 10.1.1.254
-      ansible_port: 22
-      ansible_user: root
-      mac: e8:ff:1e:d4:03:fa
-    droplet:
-      ansible_port: 22
-      ansible_user: root
+  children: {}
+  hosts: {}
