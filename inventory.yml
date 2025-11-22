@@ -8,7 +8,7 @@ all:
         beelink:
   hosts:
     beelink:
-      ansible_host: 10.1.1.238
+      ansible_host: 10.1.1.237
       ansible_port: 22
       ansible_user: root
       mac: e8:ff:1e:d4:03:fa
