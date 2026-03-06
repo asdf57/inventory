@@ -1,0 +1,33 @@
+# syncRevision: 30565a3ae746543a
+all:
+  children:
+    test_nodes:
+      hosts:
+        git-sync-test-1772762643.homelab.local: {}
+        deploy-test-1772763954.homelab.local: {}
+        deploy-test-1772764108.homelab.local: {}
+        git-sync-test-1772762415.homelab.local: {}
+    monitored_servers:
+      hosts:
+        git-sync-test-1772762643.homelab.local: {}
+        deploy-test-1772763954.homelab.local: {}
+        deploy-test-1772764108.homelab.local: {}
+        git-sync-test-1772762415.homelab.local: {}
+        beelink: {}
+    all_servers:
+      hosts:
+        git-sync-test-1772762643.homelab.local: {}
+        deploy-test-1772763954.homelab.local: {}
+        deploy-test-1772764108.homelab.local: {}
+        git-sync-test-1772762415.homelab.local: {}
+        beelink: {}
+    k8s_control_plane:
+      hosts:
+        beelink: {}
+  hosts:
+    git-sync-test-1772762643.homelab.local: {}
+    deploy-test-1772763954.homelab.local: {}
+    deploy-test-1772764108.homelab.local: {}
+    git-sync-test-1772762415.homelab.local: {}
+    beelink:
+      ansible_host: 10.1.1.243
