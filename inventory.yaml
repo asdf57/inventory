@@ -1,4 +1,4 @@
-# syncRevision: f50648fd0b5a9ba2
+# syncRevision: 54e612791395ff04
 all:
   children:
     k8s_control_plane:
