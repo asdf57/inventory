@@ -1,4 +1,15 @@
-# syncRevision: 94882f5057515d74
+# syncRevision: 83de3ce517b907a3
 all:
-  children: {}
-  hosts: {}
+  children:
+    k8s_control_plane:
+      hosts:
+        beelink: {}
+    monitored_servers:
+      hosts:
+        beelink: {}
+    all_servers:
+      hosts:
+        beelink: {}
+  hosts:
+    beelink:
+      ansible_host: 10.1.1.243
