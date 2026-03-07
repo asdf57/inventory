@@ -1,13 +1,13 @@
-# syncRevision: 36e7874b99a01097
+# syncRevision: 5dec459e4d9a57a7
 all:
   children:
-    monitored_servers:
-      hosts:
-        beelink: {}
     all_servers:
       hosts:
         beelink: {}
     k8s_control_plane:
+      hosts:
+        beelink: {}
+    monitored_servers:
       hosts:
         beelink: {}
   hosts:
