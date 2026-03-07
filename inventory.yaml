@@ -1,4 +1,3 @@
-# syncRevision: d944eea3147b749b
 all:
   children: {}
   hosts: {}
