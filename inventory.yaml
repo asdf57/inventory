@@ -2,13 +2,13 @@ all:
   children:
     all_servers:
       hosts:
-        beelink.homelab.local: {}
+        beelink: {}
     k8s_control_plane:
       hosts:
-        beelink.homelab.local: {}
+        beelink: {}
     monitored_servers:
       hosts:
-        beelink.homelab.local: {}
+        beelink: {}
   hosts:
-    beelink.homelab.local:
+    beelink:
       ansible_host: 10.1.1.243
