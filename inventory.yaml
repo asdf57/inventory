@@ -10,4 +10,5 @@ all:
       hosts:
         beelink.homelab.local: {}
   hosts:
-    beelink.homelab.local: {}
+    beelink.homelab.local:
+      ansible_host: 10.1.1.243
