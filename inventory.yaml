@@ -10,5 +10,4 @@ all:
       hosts:
         beelink: {}
   hosts:
-    beelink:
-      ansible_host: 10.1.1.243
+    beelink: {}
