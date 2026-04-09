@@ -1,3 +1,13 @@
 all:
-  children: {}
-  hosts: {}
+  children:
+    all_servers:
+      hosts:
+        beelink: {}
+    k8s_control_plane:
+      hosts:
+        beelink: {}
+    monitored_servers:
+      hosts:
+        beelink: {}
+  hosts:
+    beelink: {}
