@@ -1,8 +1,4 @@
 all:
-    hosts:
-        desktop:
-            ansible_host: 10.1.1.251
-workstations:
-    hosts:
-        desktop:
-            ansible_host: 10.1.1.251
+    hosts: {}
+testing:
+    hosts: {}
