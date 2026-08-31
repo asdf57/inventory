@@ -1,4 +1,10 @@
 all:
-    hosts: {}
+    hosts:
+        desktop:
+            ansible_host: 10.1.1.251
+        localhost:
+            ansible_host: 127.0.0.1
 testing:
-    hosts: {}
+    hosts:
+        localhost:
+            ansible_host: 127.0.0.1
