@@ -1,7 +1,6 @@
-ansible_ssh_private_key_file: /home/keiichi/.ssh/id_github
-ansible_user: keiichi
+ansible_ssh_private_key_file: /home/ansible/.ssh/id_github
+ansible_user: ansible
 cert_authority: zerossl
-cloudflare_api_key: ""
 cloudflare_domain: ryuugu.dev
 concourse_commands_pipeline: commands
 concourse_commands_resource: commands
@@ -9,39 +8,56 @@ concourse_db_ipv4: 10.0.2.127
 concourse_fqdn: ci.ryuugu.dev
 concourse_ipv4: 10.0.2.126
 concourse_oauth_client_id: fly
-concourse_password: test
 concourse_target: test
 concourse_team: main
 concourse_url: http://10.0.2.126:8080
 concourse_user: test
 concourse_version: 7.12.1
+concourse_worker_kernel_modules:
+    - overlay
+    - br_netfilter
+    - x_tables
+    - ip_tables
+    - iptable_filter
+    - iptable_nat
+    - nf_nat
+droplet_key_file: /etc/ssh/id_droplet
 git_ansible_roles_branch: main
 git_ansible_roles_repo: git@github.com:asdf57/ansible-roles.git
+git_groupvars_branch: main
+git_groupvars_repo: git@github.com:asdf57/groupvars.git
+git_hostvars_branch: main
+git_hostvars_repo: git@github.com:asdf57/hostvars.git
 git_inventory_branch: main
 git_inventory_repo: git@github.com:asdf57/inventory.git
-git_provisioning_api_branch: main
-git_provisioning_api_repo: git@github.com:asdf57/stigmergy.git
+git_provisioning_key_file: /etc/ssh/git_provisioning_key
+git_templates_branch: main
+git_templates_repo: git@github.com:asdf57/homelab-templates.git
 git_webhook_branch: main
 git_webhook_repo: git@github.com:asdf57/webhook-server.git
+groupvars_git_user_email: homelab-provisioner@localhost
+groupvars_git_user_name: Homelab Provisioner
 host_data_path: /srv/homelab
 ipvlan_gateway: 10.0.2.1
 ipvlan_mode: l2
-ipvlan_subnet: 10.2.0.0/24
+ipvlan_subnet: 10.0.2.0/24
 macvlan_gateway: 10.0.2.1
 macvlan_host_ip: 10.0.2.173/24
 macvlan_mode: bridge
 macvlan_subnet: 10.0.2.0/24
-mgmt_fqdn: mgmt.ryuugu.dev
 network_driver: macvlan
 nginx_acme_label: nginx.ryuugu.dev
 nginx_ipv4: 10.0.2.123
 openbao_acme_label: vault.ryuugu.dev
 openbao_api_fqdn: vault-api.ryuugu.dev
-openbao_ipv4: 10.0.2.125
 openbao_url: https://vault.ryuugu.dev
+primary_router_api_port: 8728
+primary_router_api_username: admin
+primary_router_management_ip: dry-run
+primary_router_name: mikrotik-1
+primary_router_role: primary
+provisioning_key_file: /etc/ssh/provisioning_key
 registry_fqdn: registry.ryuugu.dev
 registry_ipv4: 10.0.2.122
-server_api_fqdn: stigmergy.ryuugu.dev
-server_api_ipv4: 10.0.2.124
-stigmergy_api: 10.0.2.2
+stigmergy_fqdn: stigmergy.ryuugu.dev
 webhook_ipv4: 10.0.2.128
