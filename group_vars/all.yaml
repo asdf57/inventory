@@ -21,7 +21,6 @@ concourse_worker_kernel_modules:
     - iptable_filter
     - iptable_nat
     - nf_nat
-droplet_key_file: /etc/ssh/id_droplet
 git_ansible_roles_branch: main
 git_ansible_roles_repo: git@github.com:asdf57/ansible-roles.git
 git_groupvars_branch: main
@@ -30,7 +29,6 @@ git_hostvars_branch: main
 git_hostvars_repo: git@github.com:asdf57/hostvars.git
 git_inventory_branch: main
 git_inventory_repo: git@github.com:asdf57/inventory.git
-git_provisioning_key_file: /etc/ssh/git_provisioning_key
 git_templates_branch: main
 git_templates_repo: git@github.com:asdf57/homelab-templates.git
 git_webhook_branch: main
@@ -56,7 +54,6 @@ primary_router_api_username: admin
 primary_router_management_ip: dry-run
 primary_router_name: mikrotik-1
 primary_router_role: primary
-provisioning_key_file: /etc/ssh/provisioning_key
 registry_fqdn: registry.ryuugu.dev
 registry_ipv4: 10.0.2.122
 stigmergy_fqdn: stigmergy.ryuugu.dev
