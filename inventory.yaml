@@ -2,7 +2,11 @@ all:
     hosts:
         beelink:
             ansible_host: 10.1.1.243
+        zima:
+            ansible_host: 10.1.1.29
 workstations:
     hosts:
         beelink:
             ansible_host: 10.1.1.243
+        zima:
+            ansible_host: 10.1.1.29
